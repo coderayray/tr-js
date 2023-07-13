@@ -1,0 +1,13 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '7.1.3',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v7.1.3
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath D:\owncomputer\study\github\tr-js
+4 error Error: Failed to parse "packages\\my-lerna-module\\package.json"
+4 error     at D:\owncomputer\study\github\tr-js\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:27:30
+4 error     at Generator.next (<anonymous>)
+4 error     at fulfilled (D:\owncomputer\study\github\tr-js\node_modules\tslib\tslib.js:166:62)
